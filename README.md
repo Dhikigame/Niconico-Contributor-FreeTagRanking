@@ -44,12 +44,12 @@ pip install contextlib2 xml-python
 
 ゲーム.dbというDBが作られ、ゲームまたはアニメのどちらかが含む動画の合計総合ポイントの高い投稿者のランキングのDBを作成
 ```bash
-python main_TableDesignation.py ゲーム アニメ
+python main_TableDesignation.py ゲーム ゲーム アニメ
 ```
 
 野球.dbというDBが作られ、野球またはバスケまたはサッカーのどれかを含む動画の合計総合ポイントの高い投稿者のランキングのDBを作成
 ```bash
-python main_TableDesignation.py 野球 バスケ サッカー
+python main_TableDesignation.py 野球 野球 バスケ サッカー
 ```
 
 
