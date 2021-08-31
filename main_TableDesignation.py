@@ -13,9 +13,9 @@ db_name = args[1]
 table_name = args[1]
 print("タグ総数: " + str(len(args) - 2))
 print("データベース名: " + args[1])
-if len(args) - 2 > 20:
+if len(args) - 2 > 30:
     logging.error('error')
-    print("※ タグは20個まででお願いします ※")
+    print("※ タグは30個まででお願いします ※")
     sys.exit()
 
 # 登録したタグリスト初期化・タグ登録(20個まで登録可)

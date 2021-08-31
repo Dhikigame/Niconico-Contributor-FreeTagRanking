@@ -1,2 +1,3 @@
 analysis/db_ranking/*
 analysis/videodata_split/*
+analysis/__pycache__
